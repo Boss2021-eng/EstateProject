@@ -7,15 +7,15 @@ const { things } = Planning;
 
 const Section2 = () => {
   return (
-    <section className="flex flex-col items-center justify-center mt-24">
-      <div className="w-[90%] sm:w-[50%]">
+    <section className="flex flex-col items-center justify-center mt-16 p-8">
+      <div className="w-[90%] sm:w-[50%] object-contain">
         <img
           className="w-[700px]"
           src="/assets/images/house2.PNG"
           alt="house2"
         />
       </div>
-      <h1 className="text-black-900 text-3xl md:text-6xl mt-4 mb-24">
+      <h1 className="text-black-900 text-2xl p-4 md:w-full md:text-6xl mt-4 mb-24">
         Our objective is to establish micro-communities that not only serve
         their residents but also contribute positively to the larger community.
         We believe that every space holds potential, and we endeavor to
@@ -26,7 +26,7 @@ const Section2 = () => {
         <p className=" text-black-700 my-4 text-2xl ">From search to buy</p>
       </div>
 
-      <div className="md:flex items-center w-[100%]">
+      <div className="md:flex items-start w-[90%] md:w-[100%]">
         {things.map((item) => (
           <div
             key={item.name}

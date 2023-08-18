@@ -6,8 +6,8 @@ const { houses } = HousesData;
 
 const Houses = () => {
   return (
-    <section className="flex flex-col flex-wrap items-center justify-center gap-8">
-      <h1 className="text-4xl md:text-7xl text-center  mb-16 ">
+    <section className="flex flex-col flex-wrap items-center justify-center gap-8 p-8">
+      <h1 className="text-4xl md:text-7xl text-center  mb-16 w-[90%]">
         Available Properties for <br />
         Sell and Rent
       </h1>

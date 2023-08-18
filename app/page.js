@@ -14,8 +14,8 @@ import Houses from '@/components/Houses';
 const Home = () => {
   return (
     <>
-      <div className="p-8 my-8">
-        <main className="flex flex-wrap  justify-between text-6xl md:text-8xl">
+      <div className=" mt-8 w-full">
+        <main className=" p-8 flex flex-wrap  justify-between text-5xl md:text-8xl w-full">
           <div>
             <h1 className="text-black-900 ">
               Easiest way to find <br />
@@ -59,8 +59,9 @@ const Home = () => {
         <Houses />
         <Investor />
         <Towns />
+
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 };

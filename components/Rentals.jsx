@@ -2,7 +2,7 @@ import React from 'react';
 
 const Rentals = () => {
   return (
-    <section className="flex flex-wrap justify-center my-48 md:h-[400px] ">
+    <section className="flex flex-wrap justify-center my-16 md:h-[400px] p-8 md:p-0 ">
       <div className="">
         <div className="flex flex-col items-center justify-center w-[300px] h-[300px]  border-black  rounded-full border-4 text-center bg-black text-2xl text-white px-4 py-8 ">
           <h4>25 Years</h4>

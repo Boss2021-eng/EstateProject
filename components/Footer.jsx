@@ -14,8 +14,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Footer = () => {
   return (
-    <section className=" flex flex-col gap-4  p-8 bg-black text-white">
-      <div className="md:flex items-center justify-between py-24 border-white border-b-2 mb-8">
+    <section className=" w-full flex flex-col gap-4  bg-black text-white p-8">
+      <div className="md:flex items-center justify-between py-24 border-white border-b-2 mb-8  ">
         <div className="text-4xl md:text-7xl w-[100%] md:w-[70%]">
           <p>
             Looking to buy or sell <br />
@@ -23,7 +23,7 @@ const Footer = () => {
             here for you!
           </p>
         </div>
-        <div className="justify-center text-2xl  w-full md:w-[30%]">
+        <div className="justify-center text-2xl  w-full p-8 md:w-[30%]">
           <div className="flex justify-center bg-white text-black p-4 my-8 w-full">
             <p>Call Us: +44 (445) 578 996</p>
           </div>
@@ -73,7 +73,7 @@ const Footer = () => {
         <div className="text-2xl ">
           <h3 className="text-3xl my-4">{link.title}</h3>
           <div className=" w-full md:flex ">
-            <div className=" w-[30%] gap-24 ">
+            <div className="md:w-[30%] gap-24 ">
               {link.link1.map((item) => (
                 <p className="my-8">{item.title}</p>
               ))}
@@ -89,7 +89,7 @@ const Footer = () => {
       ))}
       <div className=" w-full md:flex text-2xl">
         {UtilityPages.map((link) => (
-          <div className="w-[30%]">
+          <div className="md:w-[30%]">
             <p className="text-3xl">{link.title}</p>
             <p className="my-4">Style Guide</p>
             <p className="my-4">Instructions</p>
@@ -108,7 +108,7 @@ const Footer = () => {
               outlived answered position.
             </p>
           </div>
-          <div className="flex items-center justify-between  border-white border-2 my-4 ">
+          <div className="flex items-center justify-between  border-white border-2 my-4 w-[90%] md:w-[100%]">
             <label className="text-2xl text-black-900 py-2 px-4">
               Your Email
             </label>

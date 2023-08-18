@@ -14,7 +14,7 @@ const Nav = () => {
 
   return (
     <>
-      <nav className="flex justify-between w-full">
+      <nav className="py-8 pl-8 pr-16 md:p-0 flex items-center justify-between ">
         {/* desktop screen  */}
 
         <div className="w-full hidden md:flex">

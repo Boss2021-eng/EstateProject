@@ -3,15 +3,15 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <section className="md:flex  mt-48 md:my-16 items-center justify-between  w-full gap-4 text-xl">
-      <div className="w-[100%] md:w-[30%] ">
+    <section className="md:flex  mt-48 md:my-16 items-center justify-between  w-full gap-4 text-xl p-8">
+      <div className="w-[90%] md:w-[30%] ">
         <p>
           Supposing so be resolving breakfast am or perfectly. It drew a hill
           from me. Valley by oh twenty direct me so. Departure defective
           arranging rapturous did believe him all had supported. Family months
           lasted simple set nature vulgar him. Picture for attempt joy.
         </p>
-        <div className="flex  items-center justify-between p-4 border-black border-2 my-4 ">
+        <div className="flex  items-center justify-between  border-black border-2 my-4 p-4 w-[90%]">
           <label className="text-xl text-black-900">Enter Keyword</label>
           <button className="p-4 bg-black text-white">
             <p> Search </p>
@@ -41,7 +41,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="flex my-8 w-[100%] md:w-[30%]">
+      <div className="flex my-8 w-[90%] md:w-[30%]">
         <Image
           src={'/assets/images/Orchid.PNG'}
           width={700}

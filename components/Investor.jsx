@@ -6,11 +6,11 @@ const { things } = InvestorImages;
 
 const Investor = () => {
   return (
-    <section className="flex flex-col flex-wrap items-center gap-16 mt-24">
-      <h1 className="text-3xl md:text-5xl text-center">
+    <section className="flex flex-col flex-wrap items-center justify-center gap-16 mt-24 p-8">
+      <h1 className="text-4xl md:text-5xl text-center">
         Our Investors and Business Partners Are Our Strength
       </h1>
-      <div className="flex flex-wrap items-center">
+      <div className="flex flex-wrap items-center w-[80%] md:w-full">
         {things.map((item) => (
           <div key={item.name}>
             <Image src={item.imgUrl} alt={item.name} width={200} height={200} />
