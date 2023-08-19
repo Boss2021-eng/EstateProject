@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <section className="md:flex  mt-48 md:my-16 items-center justify-between  w-full gap-4 text-xl p-8">
+    <section className="md:flex  md:mt-48 md:my-16 items-center justify-between  w-full gap-4 text-xl p-4 md:p-8 ">
       <div className="w-[90%] md:w-[30%] ">
         <p>
           Supposing so be resolving breakfast am or perfectly. It drew a hill
@@ -11,7 +11,7 @@ const Hero = () => {
           arranging rapturous did believe him all had supported. Family months
           lasted simple set nature vulgar him. Picture for attempt joy.
         </p>
-        <div className="flex  items-center justify-between  border-black border-2 my-4 p-4 w-[90%]">
+        <div className="flex  items-center justify-between  border-black border-2 text-sm md:text-xl my-4 p-1 md:p-4 md:w-[90%]">
           <label className="text-xl text-black-900">Enter Keyword</label>
           <button className="p-4 bg-black text-white">
             <p> Search </p>
@@ -49,7 +49,7 @@ const Hero = () => {
           className="bg-red-500 flex items-center"
         />
       </div>
-      <div className=" flex flex-wrap gap-4  md:flex-col  items-end ">
+      <div className=" flex flex-wrap gap-4  md:flex-col justify-center">
         <div>
           <h1 className="text-7xl flex justify-end my-8">99%</h1>
           <p className="flex justify-end">Customer Satisfaction</p>

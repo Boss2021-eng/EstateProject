@@ -6,17 +6,17 @@ const { houses } = HousesData;
 
 const Houses = () => {
   return (
-    <section className="flex flex-col flex-wrap items-center justify-center gap-8 p-8">
-      <h1 className="text-4xl md:text-7xl text-center  mb-16 w-[90%]">
+    <section className="flex flex-col flex-wrap items-center justify-center gap-8 p-2 md:p-8 w-full">
+      <h1 className="text-2xl md:text-7xl text-center  md:mb-16 md:w-[90%]">
         Available Properties for <br />
         Sell and Rent
       </h1>
-      <div className="flex gap-8 flex-wrap ">
+      <div className="flex justify-center gap-8 flex-wrap ">
         {houses.map((house) => (
           <House house={house} />
         ))}
       </div>
-      <div className="bg-black text-white mx-8 py-4 px-16 text-xl">
+      <div className="bg-black text-white  text-xl button_sm md:button ">
         <button>View Other Properties</button>
       </div>
     </section>

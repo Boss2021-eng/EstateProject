@@ -15,14 +15,14 @@ const Home = () => {
   return (
     <>
       <div className=" mt-8 w-full">
-        <main className=" p-8 flex flex-wrap  justify-between text-5xl md:text-8xl w-full">
-          <div>
+        <main className=" p-8 flex flex-wrap  justify-between text-2xl md:text-8xl w-full relative">
+          <div className="my-2">
             <h1 className="text-black-900 ">
               Easiest way to find <br />
             </h1>
-            <div className="flex items-center gap-8">
+            <div className="flex items-center my-2 md:my-0 md:gap-8">
               <h1 className="text-black-900  mr-4"> your </h1>
-              <div className=" inline-block relative w-24 md:w-48 flex flex-1">
+              <div className=" inline-block relative w-16 md:w-48 flex flex-1">
                 <img
                   className=" absolute top-[-20px] right-0"
                   src="/assets/images/house1.PNG"
@@ -35,21 +35,14 @@ const Home = () => {
               place <br />
             </h1>
           </div>
-          <div className="relative">
-            <div className="flex inline-block relative w-[350px] h-[200px] flex flex-1 absolute top-[80px] left-16 ">
+          <div className=" flex ">
+            <div className="flex justify-end items-end md:w-full md:home_double">
               <Image
                 src="/assets/images/homeDouble.PNG"
                 alt="home_double"
-                width={400}
+                width={300}
                 height={300}
               />
-              <div className="">
-                <img
-                  className=""
-                  src="/assets/images/homeDouble.PNG"
-                  alt="home_double"
-                />
-              </div>
             </div>
           </div>
         </main>

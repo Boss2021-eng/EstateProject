@@ -14,9 +14,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Footer = () => {
   return (
-    <section className=" w-full flex flex-col gap-4  bg-black text-white p-8">
+    <section className=" w-full flex flex-col gap-4  bg-black text-white p-4 md:p-8">
       <div className="md:flex items-center justify-between py-24 border-white border-b-2 mb-8  ">
-        <div className="text-4xl md:text-7xl w-[100%] md:w-[70%]">
+        <div className="text-3xl md:text-7xl w-[100%] md:w-[70%]">
           <p>
             Looking to buy or sell <br />
             the property? Homez is <br />
@@ -24,16 +24,14 @@ const Footer = () => {
           </p>
         </div>
         <div className="justify-center text-2xl  w-full p-8 md:w-[30%]">
-          <div className="flex justify-center bg-white text-black p-4 my-8 w-full">
+          <div className="flex justify-center bg-white text-black p-4 my-8 w-full text-xl md:text-2xl">
             <p>Call Us: +44 (445) 578 996</p>
           </div>
-          <p className="flex justify-end text-2xl underline">
-            example@gmail.com
-          </p>
+          <p className="flex justify-end  underline">example@gmail.com</p>
         </div>
       </div>
 
-      <div className="flex flex-col gap-4 text-2xl">
+      <div className="flex flex-col gap-4 text-md md:text-4xl">
         <div className="mb-4">
           <Image
             src="/assets/images/nav.PNG"
@@ -64,14 +62,14 @@ const Footer = () => {
         ))} */}
         {/* <FontAwesomeIcon icon={faFacebook} className="bg-green-100" /> */}
       </div>
-      <p className="text-2xl">
+      <p className="text-md md:text-2xl">
         {' '}
         Designed by <span className="underline">Webestica</span>, Powered by{' '}
         <span className="underline">Webflow</span>
       </p>
       {footerLinks.map((link) => (
-        <div className="text-2xl ">
-          <h3 className="text-3xl my-4">{link.title}</h3>
+        <div className="md:text-2xl ">
+          <h3 className="text-xl md:text-3xl my-4">{link.title}</h3>
           <div className=" w-full md:flex ">
             <div className="md:w-[30%] gap-24 ">
               {link.link1.map((item) => (
@@ -87,10 +85,10 @@ const Footer = () => {
           </div>
         </div>
       ))}
-      <div className=" w-full md:flex text-2xl">
+      <div className=" w-full md:flex md:text-2xl">
         {UtilityPages.map((link) => (
           <div className="md:w-[30%]">
-            <p className="text-3xl">{link.title}</p>
+            <p className="text-xl md:text-3xl">{link.title}</p>
             <p className="my-4">Style Guide</p>
             <p className="my-4">Instructions</p>
             <p className="my-4">Licenses</p>
@@ -102,14 +100,16 @@ const Footer = () => {
 
         <div>
           <div>
-            <h3 className="text-3xl mb-8">Subscribe to our newsletter</h3>
+            <h3 className="text-xl md:text-3xl mb-8">
+              Subscribe to our newsletter
+            </h3>
             <p className="my-8">
               Meant balls it if up doubt small purse. Required his you put the
               outlived answered position.
             </p>
           </div>
-          <div className="flex items-center justify-between  border-white border-2 my-4 w-[90%] md:w-[100%]">
-            <label className="text-2xl text-black-900 py-2 px-4">
+          <div className="flex items-center justify-between  border-white border-2 my-4 w-full md:w-[100%]">
+            <label className="md:text-2xl text-black-900 py-2 px-4">
               Your Email
             </label>
             <button className="p-4 bg-white text-black">
