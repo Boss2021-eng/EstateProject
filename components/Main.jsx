@@ -51,10 +51,10 @@ const Main = () => {
             />
           </div>
 
-          <FontAwesomeIcon
+          {/* <FontAwesomeIcon
             icon={faArrowRight}
-            className=" text-white  w-full  h-[100px] w-[100px] absolute right-[80px] z-20"
-          />
+            className=" text-white  w-full  h-[100px] w-[100px] absolute right-[10px] z-20"
+          /> */}
         </article>
       </main>
     </section>
