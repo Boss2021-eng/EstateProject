@@ -56,12 +56,12 @@ export const UtilityPages = [
 
 export const AvailableImages = {
   places: [
-    { name: 'San Francisco', imgUrl: '/assets/images/SanFranciso.PNG' },
-    { name: 'Los Angeles', imgUrl: '/assets/images/LosAngeles.PNG' },
-    { name: 'New York', imgUrl: '/assets/images/NewYork.PNG' },
-    { name: 'Las Vegas', imgUrl: '/assets/images/LasVegas.PNG' },
-    { name: 'North Junsten', imgUrl: '/assets/images/NorthJusten.PNG' },
-    { name: 'Chicago', imgUrl: '/assets/images/Chicago.PNG' },
+    { name: 'San Francisco', imgUrl: '/assets/images/Towns/san_francisco.jpg' },
+    { name: 'Los Angeles', imgUrl: '/assets/images/Towns/los_angeles.jpg' },
+    { name: 'New York', imgUrl: '/assets/images/Towns/new_york.jpg' },
+    { name: 'Las Vegas', imgUrl: '/assets/images/Towns/las_vegas.jpg' },
+    { name: 'North Junsten', imgUrl: '/assets/images/Towns/north_junsten.jpg' },
+    { name: 'Chicago', imgUrl: '/assets/images/Towns/chicago.jpg' },
   ],
 };
 
@@ -117,7 +117,7 @@ export const HousesData = {
     {
       id: '1',
       title: 'Loft in Mid City Paradise',
-      imgUrl: '/assets/images/properties/image1.PNG',
+      imgUrl: '/assets/images/properties/Estate1.jpg',
       location: 'Randall mill ave, Mentor,oh 44060',
       dimension: '1,455',
       bath: '2',
@@ -127,7 +127,7 @@ export const HousesData = {
     {
       id: '2',
       title: 'Sinomen Plant Palace',
-      imgUrl: '/assets/images/properties/image2.PNG',
+      imgUrl: '/assets/images/properties/Estate2.jpg',
       location: 'Van buren st quincy, illinois(il), 62301',
       dimension: '925',
       bath: '3',
@@ -137,7 +137,7 @@ export const HousesData = {
     {
       id: '3',
       title: 'Central House Villa',
-      imgUrl: '/assets/images/properties/image3.PNG',
+      imgUrl: '/assets/images/properties/Estate3.jpg',
       location: '106 Grant Ave. Logansport, IN 46947',
       dimension: '780',
       bath: '2',
@@ -147,7 +147,7 @@ export const HousesData = {
     {
       id: '4',
       title: 'Elite Garden Residence',
-      imgUrl: '/assets/images/properties/image4.PNG',
+      imgUrl: '/assets/images/properties/Estate4.jpg',
       location: 'Robin Hill Dr Hamilton, illinois(il), 62341',
       dimension: '1840',
       bath: '4',
@@ -157,7 +157,7 @@ export const HousesData = {
     {
       id: '5',
       title: 'Morningstar Avenue Paradise',
-      imgUrl: '/assets/images/properties/image5.PNG',
+      imgUrl: '/assets/images/properties/Estate5.jpg',
       location: 'State 270b Wewoka, Oklahoma (OK), 74884',
       dimension: '1000',
       bath: '2',
@@ -167,7 +167,7 @@ export const HousesData = {
     {
       id: '6',
       title: 'Camico Orchid Coloring',
-      imgUrl: '/assets/images/properties/image6.PNG',
+      imgUrl: '/assets/images/properties/Estate6.jpg',
       location: '1220C Queen Street West -Toronto, ON',
       dimension: '1650',
       bath: '3',
@@ -176,3 +176,28 @@ export const HousesData = {
     },
   ],
 };
+
+export const commentStore = [
+  {
+    id: 1,
+    commenter: 'Larry Lawson, Agent at Squire',
+    comment:
+      'Fulfilled direction use continual set him propriety continued. saw Met applauded favorite deficient engrossed concealed and her. concluded boy perpetual old supposing. Farther related bed and passage comfort civilly. Dash woods see frankess objection abilities hire alteration it favorable appearance up',
+    ratings: 5,
+  },
+  {
+    id: 2,
+    commenter: 'Larry Page, Pan Architect at PlantLab',
+    comment:
+      'Supposing so be resolving breakfast am or perfectly. It drew a hill from me. Valley by oh twenty direct me so. Departure defective arranging rapturous did believe him all had supported. Family months lasted simple set nature vulgar him. Picture for attempt joy excited ten carried manners talking how',
+    ratings: 5,
+  },
+
+  {
+    id: 3,
+    commenter: 'Bryan Knight, Manager at Webestica',
+    comment:
+      'Two before narrow not relied how except moment myself Dejection assurance led certainly So gate at no only none open Betrayed at properly it of graceful on Dinner abroad am depart ye turned hearts as me wished Therefore allowance too perfectly gentleman supposing man his now Families goodness all eat out bed',
+    ratings: 5,
+  },
+];

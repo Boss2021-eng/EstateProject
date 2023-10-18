@@ -6,29 +6,26 @@ const { places } = AvailableImages;
 
 const Towns = () => {
   return (
-    <section className="flex flex-col items-center justify-center text-2xl my-24">
-      <h1 className="flex text-4xl md:text-7xl text-center my-16 leading-24">
-        Our Availability in <br />
-        These Towns
-      </h1>
-      <div className="flex flex-wrap items-center justify-center gap-4">
-        {places.map((item) => (
-          <div
-            key={item.name}
-            className="flex flex-col items-center justify-center"
-          >
-            <div>
+    <section className="min-h-[100vh] w-[95%]  mx-auto flex flex-col items-center justify-center lg:text-[40px] mb-12">
+      <main>
+        <h1 className="flex font-bold text-[80px] lg:text-[200px] text-center my-16 leading-24 ">
+          Our Availability in These Towns
+        </h1>
+        <article className="grid grid-cols-3 p-2 place-items-center gap-2 ">
+          {places.map((item) => (
+            <figure key={item.name} className="col-span-1 ">
               <Image
                 src={item.imgUrl}
                 alt={item.name}
-                width={200}
-                height={200}
+                width={500}
+                height={400}
+                className="rounded-full hover:scale-105 "
               />
-            </div>
-            <p>{item.name}</p>
-          </div>
-        ))}
-      </div>
+              <figcaption className="text-center ">{item.name}</figcaption>
+            </figure>
+          ))}
+        </article>
+      </main>
     </section>
   );
 };

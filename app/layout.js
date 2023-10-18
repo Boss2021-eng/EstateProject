@@ -1,4 +1,5 @@
 import Nav from '@/components/Nav';
+import '@/styles/custom.css';
 
 export const metadata = {
   title: '  Web flow',
@@ -18,7 +19,7 @@ export default function RootLayout({ children }) {
             <div className="gradient" />
           </div>
 
-          <main className="app  p-0 m-0 w-full">
+          <main className="app  p-0 m-0 w-full overflow-hidden">
             <Nav />
             {children}
           </main>
