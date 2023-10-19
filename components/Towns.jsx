@@ -8,7 +8,7 @@ const Towns = () => {
   return (
     <section className="min-h-[100vh] w-[95%]  mx-auto flex flex-col items-center justify-center lg:text-[40px] mb-12">
       <main>
-        <h1 className="flex font-bold text-[80px] lg:text-[200px] text-center my-16 leading-24 ">
+        <h1 className="flex font-bold text-[80px] lg:text-[150px] text-center my-16 leading-24 ">
           Our Availability in These Towns
         </h1>
         <article className="grid grid-cols-3 p-2 place-items-center gap-2 ">

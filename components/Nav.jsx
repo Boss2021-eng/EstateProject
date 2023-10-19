@@ -17,7 +17,7 @@ const Nav = () => {
       <section className="md:p-0 flex flex-col items-center justify-between w-[95%] mx-auto  ">
         <main className="w-full">
           {/* desktop screen  */}
-          <article className="w-full hidden lg:flex md:text-xl lg:text-4xl  whitespace-nowrap">
+          <article className="w-full hidden lg:flex md:text-xl lg:text-3xl  whitespace-nowrap">
             <div className=" w-full flex justify-between md:pl-0 md:pr-4 items-center">
               <Image
                 src="/assets/images/homez_light.svg"

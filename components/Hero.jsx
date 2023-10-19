@@ -113,7 +113,7 @@ const Hero = () => {
             className=" md:min-h-[150px] flex flex-col items-center lg:items-end justify-between py-4  gap-8 md:col-span-1"
           >
             <div className="lg:w-[75%] p-4">
-              <h1 className=" flex justify-start text-[80px] lg:text-[100px]  font-bold ">
+              <h1 className=" flex justify-start text-[60px] lg:text-[80px]  font-bold ">
                 99%
               </h1>
               <p className="flex justify-start ">Customer Satisfaction</p>
