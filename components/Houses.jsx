@@ -23,7 +23,7 @@ const Houses = () => {
               <House house={house} />
             ))}
           </figure>
-          <div className="bg-black text-white   button_sm md:button lg:mb-4 hover:bg-white text-white hover:text-black hover:border-[2px] hover:border-black">
+          <div className="text-sm w-[100px] lg:w-[200px] bg-black text-white md:button lg:mb-4 hover:bg-white text-white hover:text-black hover:border-[2px] hover:border-black">
             <button className="">View Other Properties</button>
           </div>
         </main>

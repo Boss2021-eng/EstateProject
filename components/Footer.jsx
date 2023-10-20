@@ -110,7 +110,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center justify-between  border-white border-2 my-4 w-full md:w-[100%]">
                 <label className="text-black-900 py-2 px-4">Your Email</label>
-                <button className="p-4 bg-white text-black w-[30%] hover:bg-black text-white hover:text-white hover:border-[2px] hover:border-white">
+                <button className="p-4 bg-white text-black w-[30%] hover:bg-black :text-white hover:border-[2px] hover:border-white">
                   <p> Submit </p>
                 </button>
               </div>

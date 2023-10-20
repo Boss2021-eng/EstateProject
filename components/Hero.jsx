@@ -42,7 +42,7 @@ const Hero = () => {
             arranging rapturous did believe him all had supported. Family months
             lasted simple set nature vulgar him. Picture for attempt joy.
           </p>
-          <div className="flex  items-center justify-between  border-[5px] border-black text-16px lg:text-[40px] px-[20px] py-[10px] lg:p-[20px]">
+          <div className="flex  items-center justify-between  border-[3px] border-black text-16px lg:text-[40px] px-[20px] py-[10px] lg:p-[20px]">
             <label className="">Enter Keyword</label>
             <button className="px-8 py-4 md:px-16 md:py-8  text-white">
               Search

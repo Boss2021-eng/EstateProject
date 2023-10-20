@@ -7,7 +7,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 const Main = () => {
   return (
     <section className="lg:min-h-[80vh]  w-[95%] mx-auto flex items-center justify-center ">
-      <main className="flex flex-col items-end sm:text-[60px] md:text-[72px] lg:text-[150px] w-full relative font-medium p-2 md:p-4 ">
+      <main className="flex flex-col items-end text-[40px] sm:text-[60px] md:text-[72px] lg:text-[150px] w-full relative font-medium p-2 md:p-4 ">
         <article className=" flex flex-1 flex-wrap md:flex-row justify-start min-h-[500px]">
           <h1 className="flex items-center flex-wrap gap-8 lg:text-[10vh] xl:text-[18vh] ">
             <span>Easiest </span>
