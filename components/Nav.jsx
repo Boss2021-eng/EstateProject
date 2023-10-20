@@ -24,11 +24,11 @@ const Nav = () => {
                 alt="homez"
                 width={200}
                 height={200}
-                className="w-[20%] lg:w-[15%] "
+                className="w-[20%] md:w-[15%] "
               />
 
-              <div className="flex justify-between items-center  w-[60%] ">
-                <div className="hidden lg:flex  justify-between w-[65%] ">
+              <div className="flex justify-between items-center  md:w-[70%] lg:w-[60%]">
+                <div className="hidden md:flex  justify-between w-[65%] ">
                   <p>Home</p>
                   <p>About</p>
                   <p>Properties</p>
@@ -44,7 +44,7 @@ const Nav = () => {
 
           {/* mobile view */}
           <article className="flex lg:hidden items-center justify-between w-full text-sm whitespace-nowrap ">
-            <div className="flex items-center w-[50] h-full">
+            <div className="flex items-center w-[50px] lg:w-[200px]">
               <Image
                 src="/assets/images/nav_logo.PNG"
                 alt="nav_logo"
@@ -60,7 +60,7 @@ const Nav = () => {
                 Add Property
               </button>
               <button
-                className=" bg-black text-white py-8 px-8"
+                className=" bg-black text-white py-4 px-4 lg:py-8 lg:px-8"
                 onClick={handleToggle}
               >
                 {toggleDropDown ? (

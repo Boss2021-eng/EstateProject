@@ -30,7 +30,7 @@ const Main = () => {
             <span className="">place</span>
           </h1>
         </article>
-        <article className=" flex items-center justify-end  lg:w-[50%]  min-h-[300px]  relative">
+        <article className=" flex items-center justify-end  w-[80%] lg:w-[50%]  min-h-[300px]  relative ">
           {/* <div className="w-full h-[400px]  flex items-end">
             <img
               src="/assets/images/homeDouble.PNG"
@@ -40,11 +40,11 @@ const Main = () => {
               className="w-full "
             />
           </div> */}
-          <div className=" w-[40%] z-20">
+          <div className=" w-[60%] lg:w-[40%] z-20">
             <img src="/assets/images/house.jpg" className="rounded-full" />
           </div>
 
-          <div className="  w-[40%] ml-[-150px] bg-black rounded-full">
+          <div className=" w-[60%] lg:w-[40%] ml-[-150px] bg-black rounded-full">
             <img
               src="/assets/images/properties.png"
               className="rounded-full w-full h-full "

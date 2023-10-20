@@ -38,8 +38,8 @@ const Investor = () => {
   // console.log(comment);
 
   return (
-    <section className="lg:min-h-[100vh] w-[95%] mx-auto  flex flex-col flex-wrap items-center justify-center gap-16 mt-24 p-8  lg:text-[5vh] mb-24 ">
-      <h3 className=" font-medium text-center text-[50px] lg:text-[8vh] myColour">
+    <section className="min-h-[100vh] w-[95%] mx-auto  flex flex-col flex-wrap items-center lg:justify-center gap-16 lg:mt-24 p-8  lg:text-[5vh] md:mb-24 ">
+      <h3 className=" font-medium text-center text-[30px] sm:text-[50px] lg:text-[8vh] myColour">
         Our Investors and Business Partners Are Our Strength
       </h3>
       <motion.div
@@ -48,12 +48,12 @@ const Investor = () => {
         transition={{ repeat: Infinity, duration: 10, delay: 5 }}
       >
         {things.map((item) => (
-          <div key={item.name} className="">
+          <div key={item.name} className="flex">
             <Image src={item.imgUrl} alt={item.name} width={200} height={200} />
           </div>
         ))}
       </motion.div>
-      <article className="w-[95%]  mx-auto lg:h-[80vh] flex flex-col gap-8 items-center   flex-wrap justify-center text-md lg:text-[5vh] ">
+      <article className="mt-[300px] sm:mt-[10px] w-[95%]  mx-auto lg:h-[80vh] flex flex-col gap-8 items-center   flex-wrap justify-center text-md lg:text-[5vh] ">
         <section className=" flex flex-col items-center justify-between lg:h-[80vh]">
           <p className="my-16 text-center ">{comment.comment}</p>
           <div className="flex flex-col items-center">

@@ -33,7 +33,7 @@ const About = () => {
             className=""
           />
         </article>
-        <h1 className="text-black-900 text-[80px] lg:text-[100px] w-[95%] md:w-full md:text-6xl mt-4 mb-24">
+        <h1 className="text-black-900 text-sm font-medium lg:text-[100px] w-[95%] md:w-full md:text-6xl mt-4 mb-24">
           Our objective is to establish micro-communities that not only serve
           their residents but also contribute positively to the larger
           community. We believe that every space holds potential, and we
@@ -46,7 +46,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="flex flex-wrap items-center  gap-[50px] lg:text-4xl">
+        <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center  gap-[50px] lg:text-4xl px-[10px]">
           {/* {things.map((item) => (
             <div
               key={item.name}
