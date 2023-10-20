@@ -27,7 +27,7 @@ const Nav = () => {
                 className="w-[20%] md:w-[15%] "
               />
 
-              <div className="flex justify-between items-center  md:w-[80%] lg:w-[65%]">
+              <div className="flex justify-between items-center  md:w-[80%] lg:w-[70%]">
                 <div className="hidden md:flex  justify-between w-[65%] ">
                   <p className="border-b-[5px] border-pink-500">Home</p>
                   <p>About</p>
