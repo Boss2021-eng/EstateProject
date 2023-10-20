@@ -38,8 +38,8 @@ const Investor = () => {
   // console.log(comment);
 
   return (
-    <section className="sm:min-h-[100vh] w-[95%] mx-auto  flex flex-col flex-wrap items-center lg:justify-center gap-16 lg:mt-24 p-8  lg:text-[5vh] md:mb-24 ">
-      <h3 className=" font-medium text-center text-[30px] sm:text-[50px] lg:text-[8vh] myColour">
+    <section className="sm:min-h-[100vh] w-[95%] mx-auto  flex flex-col flex-wrap items-center gap-16 lg:gap-24 lg:justify-center  lg:mt-24 p-8  lg:text-[2xl] md:mb-24 ">
+      <h3 className=" font-medium text-center text-[30px] sm:text-[50px] lg:text-[80px] myColour">
         Our Investors and Business Partners Are Our Strength
       </h3>
       <motion.div
@@ -58,8 +58,8 @@ const Investor = () => {
           <Image src={item.imgUrl} alt={item.name} width={200} height={200} />
         </div>
       ))}
-      <article className="sm:mt-[10px] w-[95%]  mx-auto lg:h-[80vh] flex flex-col gap-8 items-center   flex-wrap justify-center text-md lg:text-[5vh] ">
-        <section className=" flex flex-col items-center justify-between lg:h-[80vh]">
+      <article className="sm:mt-[10px] w-[95%]  mx-auto  flex flex-col gap-8 items-center   flex-wrap justify-center text-md lg:text-3xl ">
+        <section className=" flex flex-col items-center justify-between ">
           <p className="my-16 text-center ">{comment.comment}</p>
           <div className="flex flex-col items-center">
             <p className="text-center">{comment.commenter}</p>

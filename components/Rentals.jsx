@@ -5,56 +5,33 @@ const Rentals = () => {
   return (
     <section className="min-h-[100vh]  lg:h-[900px] xl:h-[1000px] w-[95%] mx-auto flex items-center justify-center  ">
       <main className=" lg:w-[1100px] xl:w-[1400px] lg:h-[900px] xl:h-[1000px] lg:mx-auto md:grid md:grid-cols-3  gap-[0px] justify-center items-center  text-[16px]  lg:text-4xl px-[30px] lg:px-[0px] relative text-wrap">
-        <article className="col-span-1    ">
-          <div className=" w-full flex flex-col items-center justify-center text-center text-white  ">
-            <div className="circle bg-black text-white">
-              <h4>25 Years</h4>
-              <p>
-                <span>Of successful experience in trading</span>
-              </p>
-            </div>
+        <div className=" rentals_container ">
+          <div className="col-span-1 rentals bg-black text-white">
+            <p>25years</p>
+            <p className=""> of successful experience in training</p>
           </div>
-        </article>
-        {/* <article className="col-span-1  border-[5px] border-black lg:relative lg:left-[25%] flex-col items-center justify-center text-center border-[5px] border-black ">
-          <div className=" w-[200px] min-h-[250px] md:w-[80%]  md:h-[350px]   rounded-[50%] flex flex-col items-center justify-center px-2 lg:px-4  py-4 lg:py-8  border-[2px] lg:border-[5px] border-black ">
-            <h4>Rent</h4>
-            <p>
-              <span>Supposing so be resolving breakfast am or perfectly</span>
+
+          <div className="col-span-1 rentals">
+            <p>Rent</p>
+            <p className="">
+              Supposing so be resolving breakfast am or perfectly
             </p>
           </div>
-        </article> */}
-        <article className="col-span-1 ">
-          <div className=" flex flex-col items-center justify-center text-center">
-            <div className=" circle ">
-              <h4>Rent</h4>
-              <p>
-                <span>Supposing so be resolving breakfast am or perfectly</span>
-              </p>
-            </div>
+
+          <div className="col-span-1 rentals">
+            <p>Sell</p>
+            <p className="">
+              Sell Speedily say has suitable disposable add bay
+            </p>
           </div>
-        </article>
-        <article className="col-span-1  ">
-          <div className=" flex flex-col items-center justify-center   text-center   ">
-            <div className="circle">
-              <h4>Sell</h4>
-              <p>
-                <span>Speedily say has suitable disposable add bay</span>
-              </p>
-            </div>
+
+          <div className="col-start-2 col-span-1 rentals">
+            <p>Buy</p>
+            <p className="">
+              Passage its ten led removal Preference any astonished
+            </p>
           </div>
-        </article>
-        <article className="col-start-2 col-span-1">
-          <div className="w-full h-full flex flex-col items-center justify-center   text-center   ">
-            <div className="circle ">
-              <h4>Buy</h4>
-              <p>
-                <span>
-                  Passage its ten led removal Preference any astonished
-                </span>
-              </p>
-            </div>
-          </div>
-        </article>
+        </div>
       </main>
     </section>
   );
