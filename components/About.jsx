@@ -23,7 +23,7 @@ const HorizontalLineSVG = () => (
 
 const About = () => {
   return (
-    <section className=" min-h-[100vh] w-[95%] mx-auto flex flex-col items-center justify-center mt-4  text-wrap">
+    <section className=" sm:min-h-[100vh] w-[95%] mx-auto flex flex-col items-center justify-center mt-4  text-wrap">
       <main className=" ">
         <article className="   flex justify-center">
           <Image

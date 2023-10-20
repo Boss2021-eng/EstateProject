@@ -17,7 +17,7 @@ const Nav = () => {
       <section className="md:p-0 flex flex-col items-center justify-between w-[95%] mx-auto  ">
         <main className="w-full">
           {/* desktop screen  */}
-          <article className="w-full hidden lg:flex md:text-xl xl:text-4xl  whitespace-nowrap">
+          <article className="w-full hidden lg:flex md:text-2xl xl:text-4xl  whitespace-nowrap">
             <div className=" w-full flex justify-between md:pl-0 md:pr-4 items-center">
               <Image
                 src="/assets/images/homez_light.svg"
@@ -35,7 +35,7 @@ const Nav = () => {
                   <p>Contact Us</p>
                 </div>
 
-                <button className="hidden md:flex md:bg-black hover:bg-white text-white hover:text-black hover:border-[2px] hover:border-black md:py-2 md:px-4  lg:py-4 lg:px-8 w-[30%] text-center flex justify-center ">
+                <button className="hidden md:flex md:bg-black hover:bg-white text-white hover:text-black hover:border-[2px] hover:border-black md:py-2 md:px-4  lg:p-4 lg:w-[25%] text-center flex justify-center ">
                   Add Property
                 </button>
               </div>
@@ -52,7 +52,7 @@ const Nav = () => {
                 height={120}
                 className=""
               />
-              <p className="text-black font-semibold text-[60px]">Homez</p>
+              <p className="text-black font-semibold text-[30px]">Homez</p>
             </div>
 
             <div className="flex items-center gap-4   ">

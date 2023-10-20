@@ -33,7 +33,7 @@ const Div = ({ index, children }) => {
 
 const Hero = () => {
   return (
-    <section className="min-h-[100vh]  w-[95%] mx-auto   lg:text-[40px] flex items-end">
+    <section className="sm:min-h-[100vh]  w-[95%] mx-auto   lg:text-[40px] flex items-end">
       <main className="gap-4 min-h-[90vh] w-full ">
         <article className=" flex flex-col justify-between gap-[20px] lg:text-[4vh]">
           <p className="">
@@ -42,7 +42,7 @@ const Hero = () => {
             arranging rapturous did believe him all had supported. Family months
             lasted simple set nature vulgar him. Picture for attempt joy.
           </p>
-          <div className="flex  items-center justify-between  border-[3px] border-black text-16px lg:text-[40px] px-[20px] py-[10px] lg:p-[20px]">
+          <div className="flex  items-center justify-between  border-[5px] border-black text-16px lg:text-[40px] px-[20px] py-[10px] lg:p-[20px]">
             <label className="">Enter Keyword</label>
             <button className="px-8 py-4 md:px-16 md:py-8  text-white">
               Search
@@ -93,7 +93,7 @@ const Hero = () => {
                 />
                 <p>5.0</p>
               </div>
-              <p className="text-center">Trusted by clients worldwide</p>
+              <p className="">Trusted by clients worldwide</p>
             </div>
           </div>
         </article>
@@ -103,11 +103,11 @@ const Hero = () => {
             src={'/assets/images/hero-image.jpg'}
             width={770}
             height={800}
-            className=" flex items-center object-cover w-full h-full"
+            className=" flex items-center  object-cover w-full h-full"
           />
         </article>
 
-        <article className="  grid grid-cols-3 sm:gap-[50px] lg:min-h-[300px] ">
+        <article className="w-full grid grid-cols-3 justify-between sm:gap-[50px] lg:min-h-[300px] ">
           <Div index={0} className="">
             <div className="w-full h-[200px] p-2 sm:p-8  ">
               <h1 className="inline-block  text-4xl  lg:text-8xl font-bold ">
@@ -130,7 +130,7 @@ const Hero = () => {
             index={2}
             className=" w-[150px]  flex flex-col items-center w-full h-[200px]  sm:p-8 lg:items-end justify-between py-4  gap-8 md:col-span-1 "
           >
-            <div className="w-full h-[200px]  p-2 sm:p-8">
+            <div className="w-full  h-[200px]  p-2 sm:p-8 ">
               <h1 className="inline-block text-4xl  lg:text-8xl font-bold  ">
                 249
               </h1>

@@ -7,9 +7,9 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 const Main = () => {
   return (
     <section className="lg:min-h-[80vh]  w-[95%] mx-auto flex items-center justify-center ">
-      <main className="flex flex-col items-end text-[60px] md:text-[72px] lg:text-[150px] w-full relative font-medium p-2 md:p-4 ">
+      <main className="flex flex-col items-end sm:text-[60px] md:text-[72px] lg:text-[150px] w-full relative font-medium p-2 md:p-4 ">
         <article className=" flex flex-1 flex-wrap md:flex-row justify-start min-h-[500px]">
-          <h1 className="flex items-center flex-wrap gap-8 lg:text-[15vh] ">
+          <h1 className="flex items-center flex-wrap gap-8 lg:text-[10vh] xl:text-[18vh] ">
             <span>Easiest </span>
             <span>way</span>
             <span>to</span>
@@ -30,7 +30,7 @@ const Main = () => {
             <span className="">place</span>
           </h1>
         </article>
-        <article className=" flex items-center justify-end  w-[80%] lg:w-[50%]  min-h-[300px]  relative ">
+        <article className=" flex items-center justify-end  w-[100%] sm:w-[80%] lg:w-[50%]  min-h-[300px]  relative ">
           {/* <div className="w-full h-[400px]  flex items-end">
             <img
               src="/assets/images/homeDouble.PNG"
@@ -40,11 +40,11 @@ const Main = () => {
               className="w-full "
             />
           </div> */}
-          <div className=" w-[60%] lg:w-[40%] z-20">
+          <div className=" w-full w-[60%] lg:w-[40%] z-20">
             <img src="/assets/images/house.jpg" className="rounded-full" />
           </div>
 
-          <div className=" w-[60%] lg:w-[40%] ml-[-150px] bg-black rounded-full">
+          <div className=" w-full sm:w-[60%] lg:w-[40%] ml-[-150px] bg-black rounded-full">
             <img
               src="/assets/images/properties.png"
               className="rounded-full w-full h-full "
