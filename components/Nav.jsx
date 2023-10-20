@@ -17,7 +17,7 @@ const Nav = () => {
       <section className="md:p-0 flex flex-col items-center justify-between w-[95%] mx-auto  ">
         <main className="w-full">
           {/* desktop screen  */}
-          <article className="w-full hidden lg:flex md:text-xl lg:text-3xl  whitespace-nowrap">
+          <article className="w-full hidden lg:flex md:text-xl xl:text-4xl  whitespace-nowrap">
             <div className=" w-full flex justify-between md:pl-0 md:pr-4 items-center">
               <Image
                 src="/assets/images/homez_light.svg"
@@ -27,15 +27,15 @@ const Nav = () => {
                 className="w-[20%] md:w-[15%] "
               />
 
-              <div className="flex justify-between items-center  md:w-[70%] lg:w-[60%]">
+              <div className="flex justify-between items-center  md:w-[80%] lg:w-[65%]">
                 <div className="hidden md:flex  justify-between w-[65%] ">
-                  <p>Home</p>
+                  <p className="border-b-[5px] border-pink-500">Home</p>
                   <p>About</p>
                   <p>Properties</p>
                   <p>Contact Us</p>
                 </div>
 
-                <button className="hidden md:flex md:bg-black text-white  md:py-2 md:px-4  lg:py-4 lg:px-8 w-[30%] text-center flex justify-center">
+                <button className="hidden md:flex md:bg-black hover:bg-white text-white hover:text-black hover:border-[2px] hover:border-black md:py-2 md:px-4  lg:py-4 lg:px-8 w-[30%] text-center flex justify-center ">
                   Add Property
                 </button>
               </div>

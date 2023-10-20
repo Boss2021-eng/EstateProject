@@ -61,7 +61,7 @@ const Hero = () => {
             <p className="my-4">Globally integrated real estate platform</p>
           </div>
 
-          <div className=" w-full lg:w-[70%] my-8  grid grid-cols-2 gap-8 ">
+          <div className=" w-full lg:w-[70%] my-8  grid grid-cols-2 place-items-center gap-8 ">
             <div className="col-span-1 flex object-contain grid grid-cols-3 place-items-center ">
               <img
                 src={'/assets/images/pictures/picture1.jpg'}
@@ -83,7 +83,7 @@ const Hero = () => {
             </div>
 
             <div className="col-span-1 ">
-              <div className=" flex items-center justify-center font-bold">
+              <div className=" flex items-center gap-2 font-bold">
                 <p>Rating</p>
                 <Image
                   src={'/assets/images/Star.PNG'}
@@ -107,7 +107,7 @@ const Hero = () => {
           />
         </article>
 
-        <article className="  grid grid-cols-3 sm:gap-[50px] border-[5px]  lg:min-h-[300px] ">
+        <article className="  grid grid-cols-3 sm:gap-[50px] lg:min-h-[300px] ">
           <Div index={0} className="">
             <div className="w-full h-[200px] p-2 sm:p-8  ">
               <h1 className="inline-block  text-4xl  lg:text-8xl font-bold ">
