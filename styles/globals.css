@@ -14,7 +14,7 @@
 
 .rentals_container{
     @apply grid grid-cols-1 md:grid-cols-3 md:min-h-[500px] lg:min-h-[900px] text-center mx-auto
-    border-[5px] 
+    
 }
 
 .rentals{
