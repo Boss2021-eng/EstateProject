@@ -113,7 +113,7 @@ const Hero = () => {
               <h1 className="inline-block  text-4xl  lg:text-8xl font-bold ">
                 99%
               </h1>
-              <p className="text-3xl">Customer Satisfaction</p>
+              <p className="md:text-3xl">Customer Satisfaction</p>
             </div>
           </Div>
 
@@ -122,7 +122,9 @@ const Hero = () => {
               <h1 className=" inline-block text-4xl  lg:text-8xl font-bold  ">
                 56+
               </h1>
-              <p className="flex justify-start text-3xl">Experience agents</p>
+              <p className="flex justify-start md:text-3xl">
+                Experience agents
+              </p>
             </div>
           </Div>
 
@@ -134,7 +136,9 @@ const Hero = () => {
               <h1 className="inline-block text-4xl  lg:text-8xl font-bold  ">
                 249
               </h1>
-              <p className="flex justify-start text-3xl">Total Property Sell</p>
+              <p className="flex justify-start md:text-3xl">
+                Total Property Sell
+              </p>
             </div>
           </Div>
         </article>

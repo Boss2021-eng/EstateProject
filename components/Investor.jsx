@@ -43,7 +43,7 @@ const Investor = () => {
         Our Investors and Business Partners Are Our Strength
       </h3>
       <motion.div
-        className="hidden sm:flex gap-8 flex-wrap items-center h-[15vh]  "
+        className="hidden md:flex gap-8 flex-wrap items-center h-[15vh]  "
         animate={{ x: [-500, 0, 0, 500, 0, -500] }}
         transition={{ repeat: Infinity, duration: 10, delay: 5 }}
       >

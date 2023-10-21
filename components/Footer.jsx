@@ -36,7 +36,7 @@ const Footer = () => {
         </main>
       </section>
       <section className="lg:min-h-[100vh] w-full   flex flex-col gap-4  bg-black text-white  w-[95%] mx-auto">
-        <main className="lg:p-24 space-y-[30px] lg:space-y-[50px] text-sm lg:text-3xl p-8 border-[2px] border-white">
+        <main className="lg:p-24 space-y-[30px] lg:space-y-[50px] text-sm lg:text-3xl p-8 border-t-[2px] border-white">
           <article className="flex flex-col gap-4 ">
             <div className="mb-4">
               <Image
